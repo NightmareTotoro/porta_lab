@@ -82,7 +82,7 @@ bool AccessControl::verificarAcesso(const String &tagLida)
        * ip fablab: 172.27.16.75
        */
       salas[0].sala = "FabLab";
-      salas[0].ip = "172.27.16.75";
+      salas[0].ip = "172.27.16.154";
       salas[1].sala = "IA1";
       salas[1].ip = "172.27.16.76";
       salas[2].sala = "IA2";

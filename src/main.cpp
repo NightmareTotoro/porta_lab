@@ -38,6 +38,9 @@ void carregarCredenciaisWiFi() {
   }
   file.close();
   Logger::registrarMensagem("Credenciais WiFi carregadas do esp.env.");
+  Logger::registrarMensagem("wifi :" + STASSID);
+  Logger::registrarMensagem("senha:" + STAPSK);
+  Logger::registrarMensagem("ip: " + STASIP);
 }
 
 
