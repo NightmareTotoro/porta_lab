@@ -16,7 +16,7 @@ const long  gmtOffset_sec = -3 * 3600; // GMT-3 (Fuso horário de Brasília)
 const int   daylightOffset_sec = 0;    // Horário de verão (desativado no Brasil)
 
 // --- Variáveis Globais para WiFi ---
-String STASSID = "";
+String STASSID = "teste";
 String STAPSK = "";
 String STASIP = "";
 
