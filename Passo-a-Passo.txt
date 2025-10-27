@@ -1,0 +1,16 @@
+Leitura de cartões pela bliblioteca MFRC522.h
+
+Sites explicando como usar o littlefs:
+https://randomnerdtutorials.com/esp32-vs-code-platformio-littlefs/
+https://randomnerdtutorials.com/arduino-ide-2-install-esp32-littlefs/
+
+Como fazer a OTA enviando o .csv
+https://randomnerdtutorials.com/esp32-ota-over-the-air-vs-code/
+https://www.youtube.com/watch?v=NQAlsSJ3L2s&t=1422s
+https://www.youtube.com/watch?v=FO2sdqa6HfM
+
+Criar rotina de baixar o .csv do banco de dados
+feito em python, criado uma rotina que abre todo dia um horario e baixa direto o csv do banco de dados e envia para o esp
+
+Visualizaçao
+ ip /log_serial
